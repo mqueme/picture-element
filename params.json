@@ -1,0 +1,6 @@
+{
+  "name": "Picture-element",
+  "tagline": "html picture element example",
+  "body": "Este es un ejemplo para demostrar como el <picture> element funciona\r\n\r\n\r\n### Esta imagen deberia actualizarse al momento de cambiar el tamaño de la pantalla.\r\n\r\n<picture>\r\n  <source \r\n    media=\"(min-width: 650px)\"\r\n    srcset=\"images/Horizontal-logo-light-background-en.png\">\r\n  <source \r\n    media=\"(min-width: 465px)\"\r\n    srcset=\"images/Vertical-logo-light-background-en.png\">\r\n  <img \r\n    src=\"images/kVertical-logo-light-background-en.png\" \r\n    alt=\"Joomla!\">\r\n</picture>\r\n\r\n### Esta imagen no se actualiza al momento de cambiar el tamano de la pantalla\r\n<img src=\"images/Joomla-Mono-Vertical-logo-light-background-tagline-en.png\" alt=\"Joomla!\">\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
